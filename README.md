@@ -78,16 +78,16 @@ system tray application.
 
 ### Prerequisites
 
-requirements.txt contains the list of dependencies for this program. 
+```requirements.txt``` contains the list of dependencies for this program. 
 
 ### Installation
 
-1) Download the OutlookAuto.zip file. Unzip into a directory of your choice. 
-2) Change the SEND_TO parameter in config.py to the recepient email address. 
-3) Create a shortcut of the outlookauto.exe file in the following location: 
-```
-C:\Users\{USERNAME}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-```
+1) Download the ```OutlookAuto.zip``` file. Unzip into a directory of your choice. 
+2) Open the ```configuration``` folder and the file inside and replace the fields with the recipient's email and your name. 
+3) Create a shortcut of the ```main.exe``` (found in ```dist/dist/main.exe```) file in the following location: 
+    ```
+    C:\Users\{USERNAME}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
